@@ -190,7 +190,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     print(args.num_heads)
 
-    (g,), _  = dgl.load_graphs('data/graph_md_xsd_withoutgs_HGANMDA.dgl')
+    (g,), _  = dgl.load_graphs('data/graph_md_xsd_withoutgs_hmddv20.dgl')
 
 
 
